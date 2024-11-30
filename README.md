@@ -1,21 +1,14 @@
 
 ## Basic Stack for No Return dApp
 
-First, run the development server:
+💻 dApp Stack
 
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the dApp.
-
-
-## docs
-
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
+- Next.js 14 for the frontend framework
+- TypeScript for type safety
+- Tailwind CSS for styling
+- MUI for UI components
+- Wagmi/Viem for managing blockchain interactions and smart contract integration
+- RainbowKit for handling wallet connections and user authentication
 
 
 unfailed was here
