@@ -3,11 +3,9 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Header from "../ui/header"
-import Hero from "../ui/hero"
-import NftList from '../ui/nftBar'
 
 
-const Home: NextPage = () => {
+const Platform: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -21,9 +19,8 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Header />
-        <Hero />
+  
 
-        <NftList/>
       </main>
 
       <footer>
@@ -35,4 +32,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Platform;
